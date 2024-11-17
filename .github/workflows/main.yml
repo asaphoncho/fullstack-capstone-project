@@ -9,7 +9,6 @@ on:
 jobs:
 
   lint_js:
-      jshint esversion: 8
       name: Lint JavaScript Files
       runs-on: ubuntu-latest
 
@@ -35,7 +34,6 @@ jobs:
           echo "Linted all the js files successfully"
 
   client_build:
-      jshint esversion: 8
       name: Build client
       runs-on: ubuntu-latest
 
